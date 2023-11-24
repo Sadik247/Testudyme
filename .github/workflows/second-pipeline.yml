@@ -2,7 +2,7 @@ name: second-pipeline
 on: workflow_dispatch
 jobs:
   test-multiplelines:
-   runs-on: ubuntu-lates
+   runs-on: ubuntu-latest
    steps:
     - name: print multiple shell script
       run: |
