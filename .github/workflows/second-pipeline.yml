@@ -1,0 +1,11 @@
+name: second-pipeline
+on: workflow_dispatch
+jobs:
+  test-multiplelines:
+   runs-on: ubuntu-lates
+   steps:
+    - name: print multiple shell script
+      run: |
+           echo "Hello-everyone"
+           echo "Hello all this is for multiples echos in single step"
+           echo "thank you for watching good-bye!"
